@@ -5,3 +5,6 @@ cara merge branch di git :
     4. git add.
     5. git commit -m "pesan"
     6. git push origin master -> untuk push ke GitHub
+
+git remote add origin link_GitHub_repository
+git remote -v -> memeriksa GitHub
