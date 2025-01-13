@@ -1,0 +1,7 @@
+cara merge branch di git : 
+    1. git checkout master -> pastikan kamu berada di branch master
+    2. git merge nama_branch -> perintah untuk merge
+    3. selesaikan resolusi konflik jika ada
+    4. git add.
+    5. git commit -m "pesan"
+    6. git push origin master -> untuk push ke GitHub
