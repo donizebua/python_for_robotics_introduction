@@ -1,0 +1,146 @@
+Berikut adalah daftar lengkap konsep dalam elektronik, khususnya yang berhubungan dengan arus lemah (DC current), dari tingkat intermediate hingga advanced, yang bisa dipelajari di rumah menggunakan metode project-based learning:
+
+1. Elektronika Dasar Lanjutan
+    1. Resistor, Kapasitor, dan Induktor  
+        - Konsep jaringan RLC.
+        - Filter pasif: Low-pass, high-pass, band-pass, dan band-stop.
+        - Resonansi dalam rangkaian LC.
+    2. Transistor  
+        - BJT (Biasing, Switching, Amplifikasi).  
+        - MOSFET (Enhancement dan Depletion Mode).  
+        - IGBT (Insulated Gate Bipolar Transistor).  
+        - Konsep Darlington Pair.
+    3. Dioda  
+        - Dioda Zener sebagai regulator tegangan.  
+        - Dioda Schottky.  
+        - LED dan Photodioda.  
+        - Dioda PIN (untuk RF dan komunikasi).  
+        - Rectifier (Half-Wave, Full-Wave, Bridge).
+
+---
+
+2. Sistem Digital
+    1. Gerbang Logika  
+        - AND, OR, NOT, NAND, NOR, XOR, XNOR.  
+        - Implementasi gerbang logika menggunakan IC.  
+        - Desain rangkaian logika menggunakan Breadboard.
+    2. Flip-Flop  
+        - SR, D, T, JK Flip-Flop.  
+        - Aplikasi flip-flop sebagai penyimpanan data dan counter.
+    3. Multiplexer dan Demultiplexer (MUX/DEMUX)  
+        - Aplikasi dalam seleksi data.  
+        - Membuat MUX/DEMUX sederhana.
+    4. Counter dan Timer  
+        - Counter synchronous dan asynchronous.  
+        - Timer IC seperti 555 Timer (Mode Astable, Monostable, dan Bistable).
+    5. Register dan Shift Register  
+        - Serial-In Parallel-Out (SIPO) dan Parallel-In Serial-Out (PISO).  
+        - Aplikasi shift register dalam pengendalian LED.
+
+---
+
+3. Teknik Analog
+    1. Penguat Operasional (Op-Amp)  
+        - Penguat non-inverting dan inverting.  
+        - Penguat diferensial.  
+        - Integrator dan Differentiator.  
+        - Comparator.  
+        - Voltage Follower.  
+        - Schmitt Trigger.
+    2. Oscillator  
+        - Oscillator LC dan RC.  
+        - Crystal Oscillator.
+    3. Power Amplifier
+        - Class A, Class B, Class AB, dan Class D Amplifier.
+
+---
+
+4. Teknik Sinyal dan Komunikasi
+    1. Pulse Width Modulation (PWM)  
+        - Aplikasi PWM untuk kontrol motor dan LED dimming.  
+        - Membuat modul PWM menggunakan IC NE555.  
+    2. Signal Modulation  
+        - AM (Amplitude Modulation), FM (Frequency Modulation), dan PM (Phase Modulation).  
+        - Aplikasi dalam komunikasi sederhana.
+    3. Filter Aktif dan Pasif  
+        - Desain filter aktif menggunakan Op-Amp.  
+        - Filter Butterworth, Chebyshev, dan Elliptic.
+
+---
+
+5. Catu Daya dan Konversi Energi
+    1. Power Supply  
+        - Linear Power Supply.  
+        - Switch Mode Power Supply (SMPS).  
+        - Desain regulator berbasis IC LM317 atau LM7805.
+    2. Rectifier dan Regulator  
+        - Full-Wave Rectifier.  
+        - Regulator Buck, Boost, dan Buck-Boost.  
+        - Flyback Converter.
+    3. Baterai dan Sistem Penyimpanan Energi  
+        - Sistem manajemen baterai (BMS).  
+        - Monitoring baterai menggunakan sensor.
+
+---
+
+6. Mikrokontroler dan Embedded System  
+    1. Komunikasi Serial  
+        - I2C, SPI, UART.  
+        - Aplikasi mikrokontroler untuk komunikasi antar perangkat.
+    2. Sensor dan Aktuator  
+        - Pemrosesan data dari sensor jarak (HC-SR04), suhu (DS18B20), cahaya (LDR).  
+        - Kontrol motor DC dan servo menggunakan driver motor (L298N, DRV8825).
+    3. Internet of Things (IoT)  
+        - Menghubungkan mikrokontroler dengan internet.  
+        - Membuat proyek IoT sederhana (misalnya smart home atau pemantauan jarak jauh).
+
+---
+
+7. Pengendalian dan Otomasi
+    1. PID Control  
+        - Implementasi PID pada kontrol motor.  
+        - Tuning parameter PID.
+    2. Programmable Logic Controller (PLC)  
+        - Ladder Diagram.  
+        - Desain sistem otomatisasi sederhana.
+    3. H-Bridge  
+        - Desain H-Bridge untuk kontrol motor DC.
+
+---
+
+8. Elektronika Frekuensi Tinggi
+    1. Oscillator RF  
+        - Membuat generator sinyal RF.  
+        - LC dan Crystal Oscillator untuk RF.
+    2. Antena dan Transmisi Sinyal  
+        - Desain antena sederhana.  
+        - Matching Impedance.
+
+---
+
+9. Pengukuran dan Instrumentasi
+    1. Multimeter, Oscilloscope, dan Logic Analyzer  
+        - Penggunaan alat untuk pengukuran arus lemah.  
+        - Analisis sinyal digital menggunakan Logic Analyzer.
+    2. Pengukuran Tegangan dan Arus  
+        - Desain pengukur arus berbasis shunt resistor.  
+        - Membuat pengukur tegangan menggunakan Op-Amp.
+
+---
+
+10. Topik Lanjutan
+    1. Embedded AI  
+        - Menggunakan mikroprosesor untuk AI kecil (misalnya ESP32 dengan TensorFlow Lite).  
+    2. Power Electronics  
+        - Inverter DC ke AC.  
+        - Solar Charge Controller.  
+    3. Proteksi Elektronik  
+        - Desain rangkaian proteksi overcurrent dan overvoltage.
+
+---
+
+Semua konsep ini bisa dipelajari secara bertahap dengan membuat proyek kecil yang relevan, seperti:  
+- Mengontrol motor menggunakan PWM.  
+- Membuat power supply sendiri.  
+- Membuat sistem otomatisasi berbasis sensor.  
+- Mengintegrasikan IoT untuk kontrol jarak jauh.

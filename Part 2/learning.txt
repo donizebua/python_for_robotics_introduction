@@ -1,0 +1,26 @@
+cara merge branch di git : 
+    1. git checkout master -> pastikan kamu berada di branch master
+    2. git merge nama_branch -> perintah untuk merge
+    3. selesaikan resolusi konflik jika ada
+    4. git add.
+    5. git commit -m "pesan"
+    6. git push origin master -> untuk push ke GitHub
+    7. git push origin master --force -> apabila ingin memaksa repository lokal di salin ke github meskipun ada konflik
+
+git remote add origin link_GitHub_repository
+git remote -v -> memeriksa GitHub
+
+Perintah git fetch digunakan untuk mengambil (fetch) semua pembaruan (update) terbaru dari remote repository tanpa menggabungkannya langsung ke branch lokal Anda
+
+git fetch origin
+
+Melihat Perubahan yang Diambil: Setelah melakukan git fetch, Anda bisa memeriksa perubahan terbaru dari remote, misalnya dengan:
+
+git log origin/master
+
+Menggabungkan Perubahan dari Remote ke Lokal: Jika setelah git fetch Anda ingin menggabungkan perubahan dari branch remote (misalnya origin/master) ke branch lokal Anda, Anda bisa melakukan merge atau rebase:
+git merge origin/master
+git rebase origin/master
+
+Anda bisa mencoba untuk menambahkan opsi -v (verbose) untuk melihat lebih banyak informasi:
+git fetch -v origin
